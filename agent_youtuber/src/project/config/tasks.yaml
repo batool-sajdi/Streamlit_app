@@ -1,0 +1,7 @@
+describe_topic:
+  description: >
+    "we are mentoring to create the best youtuber.today we teach a{topic}"
+expected_output: >
+    "the students will have mastered the topic {topic}"
+agent: >
+  "teacher"    

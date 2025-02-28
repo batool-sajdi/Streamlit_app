@@ -1,0 +1,17 @@
+[project]
+name = "project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "crewai>=0.102.0",
+]
+
+[project.scripts]
+project = "project:main"
+panaflow = "project.men:kickoff"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
